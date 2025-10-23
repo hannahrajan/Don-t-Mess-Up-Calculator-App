@@ -1,1 +1,29 @@
-*.kts
+# Build artifacts
+/build/
+*.apk
+*.ap_
+*.dex
+*.class
+/gen/
+/out/
+
+# Gradle files
+.gradle/
+local.properties
+dependencies.txt
+resources/config/dependencies.txt
+
+# IDE files
+.idea/
+*.iml
+.idea/workspace.xml
+.idea/libraries
+.kotlin/
+
+# Other
+*.log
+captures/
+.navigation/
+*.jks
+.DS_Store
+Thumbs.db
